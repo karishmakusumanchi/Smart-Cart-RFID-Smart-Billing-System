@@ -11,6 +11,7 @@ SmartCart is an embedded systems project that automates the retail billing proce
 
 
 
+
 ## Features
 
 * RFID-based automatic product identification
