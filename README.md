@@ -1,6 +1,7 @@
 # SmartCart – RFID Smart Billing System
 
-https://github.com/karishmakusumanchi/Smart-Cart-RFID-Smart-Billing-System/blob/main/IMAGES/rfid%20block%20diagram.png
+<img width="1402" height="1122" alt="image" src="https://github.com/user-attachments/assets/a788d1fb-9e45-44f8-b759-8556c81a6356" />
+
 
 ## Overview
 
