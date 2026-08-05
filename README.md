@@ -7,7 +7,7 @@
 
 SmartCart is an embedded systems project that automates the retail billing process using RFID technology. The system enables customers to scan RFID-tagged products, automatically retrieve product information, calculate the total bill, and manage inventory through database integration. It reduces manual billing time, minimizes human errors, and provides a faster and more efficient checkout experience. The project integrates an LPC2148 ARM7 microcontroller with an RFID reader, LCD, keypad, UART communication, and a Linux-based backend application.
 
-![Uploading image.png…]()
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/ae7bc3b2-db19-4d9f-94e2-e21cc476d167" />
 
 
 ## Features
@@ -53,6 +53,9 @@ The SmartCart RFID Smart Billing System automates the shopping and billing proce
 2. **Product Scanning**
    - Each product is scanned using its RFID tag.
    - The RFID reader reads the unique tag ID and sends it to the LPC2148 microcontroller.
+
+      ![Uploading image.png…]()
+
 
 3. **Data Communication**
    - The LPC2148 transmits the RFID tag ID to the Linux application through UART communication.
