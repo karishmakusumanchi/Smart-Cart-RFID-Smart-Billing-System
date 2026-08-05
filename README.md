@@ -86,6 +86,9 @@ The SmartCart RFID Smart Billing System automates the shopping and billing proce
    - The manager scans a manager RFID card to access stock management.
    - The manager can add new products or update the stock quantity in the database.
 
+     <img width="1600" height="1108" alt="Hardware_system" src="https://github.com/user-attachments/assets/ad9cee74-031f-4f6f-abe2-fc772c3f16ec" />
+
+
 ## Applications
 
 * Supermarkets
