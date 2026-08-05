@@ -36,17 +36,46 @@ SmartCart is an embedded systems project that automates the retail billing proce
 * Linux System Programming
 * UART Communication
 * Text-file based Database Management
-
 ## Working
 
-1. The user scans an RFID-tagged product.
-2. The LPC2148 reads the RFID card ID.
-3. The card ID is transmitted to the Linux application through UART.
-4. The Linux application retrieves product details from the database.
-5. Product name, price, and remaining stock are sent back to the microcontroller.
-6. The LCD displays the product information and updates the total bill.
-7. Users can add or remove products before checkout.
-8. Payment is completed using either cash or RFID-based card authentication with PIN verification.
+The SmartCart RFID Smart Billing System automates the shopping and billing process using RFID technology and an LPC2148 ARM7 microcontroller. The complete workflow is as follows:
+
+1. **Customer Authentication**
+   - The customer scans the RFID customer card.
+   - The system verifies the customer details and displays the available account balance.
+
+2. **Product Scanning**
+   - Each product is scanned using its RFID tag.
+   - The RFID reader reads the unique tag ID and sends it to the LPC2148 microcontroller.
+
+3. **Data Communication**
+   - The LPC2148 transmits the RFID tag ID to the Linux application through UART communication.
+   - The Linux application searches the product database (`stock.csv`) for the matching product information.
+
+4. **Product Display**
+   - The Linux application sends the product details, including product name, price, and available quantity, back to the microcontroller.
+   - The 16×2 LCD displays the product information.
+   - The selected product is added to the customer's shopping cart.
+
+5. **Cart Management**
+   - Customers can continue scanning products to add multiple items.
+   - Products can also be removed from the cart if required.
+   - The system updates the total bill after every operation.
+
+6. **Payment Process**
+   - After shopping is completed, the customer selects the payment option.
+   - For card payment, the customer enters the PIN using the keypad.
+   - The system verifies the PIN and checks the account balance stored in `bank.csv`.
+
+7. **Transaction Completion**
+   - If sufficient balance is available, the payment is processed successfully.
+   - The customer account balance is updated.
+   - The product quantity in `stock.csv` is reduced accordingly.
+   - The LCD displays a **Payment Successful** message.
+
+8. **Manager Mode**
+   - The manager scans a manager RFID card to access stock management.
+   - The manager can add new products or update the stock quantity in the database.
 
 ## Applications
 
