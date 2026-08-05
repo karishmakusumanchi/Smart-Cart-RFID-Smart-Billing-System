@@ -50,12 +50,12 @@ The SmartCart RFID Smart Billing System automates the shopping and billing proce
    - The customer scans the RFID customer card.
    - The system verifies the customer details and displays the available account balance.
 
+     <img width="1600" height="1200" alt="Lcd_dispaly" src="https://github.com/user-attachments/assets/01cf9a09-7f46-4933-87fa-61fbfc043d1d" />
+
+
 2. **Product Scanning**
    - Each product is scanned using its RFID tag.
    - The RFID reader reads the unique tag ID and sends it to the LPC2148 microcontroller.
-
-      ![Uploading image.png…]()
-
 
 3. **Data Communication**
    - The LPC2148 transmits the RFID tag ID to the Linux application through UART communication.
