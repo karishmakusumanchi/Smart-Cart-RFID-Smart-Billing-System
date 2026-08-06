@@ -30,7 +30,8 @@ SmartCart is an embedded systems project that automates the retail billing proce
 * USB-to-UART Converter
 * Push Buttons/Switches
   
-  <img width="1402" height="1122" alt="image" src="https://github.com/user-attachments/assets/a788d1fb-9e45-44f8-b759-8556c81a6356" />
+![Uploading image.png…]()
+
 
 ## Software Used
 
