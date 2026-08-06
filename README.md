@@ -119,4 +119,5 @@ This project demonstrates the implementation of an RFID-enabled smart billing sy
 ## Developed By
 
 Karishma Kusumanchi
+
 B.Tech – Electronics and Communication Engineering | Embedded C | Linux | LPC2148 ARM7 | UART | RFID | MAX232
