@@ -29,9 +29,8 @@ SmartCart is an embedded systems project that automates the retail billing proce
 * MAX232
 * USB-to-UART Converter
 * Push Buttons/Switches
-  
-![Uploading image.png…]()
 
+![Uploading image.png…]()
 
 ## Software Used
 
