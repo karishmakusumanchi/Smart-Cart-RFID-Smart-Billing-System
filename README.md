@@ -1,7 +1,6 @@
 # SmartCart – RFID Smart Billing System
 
-<img width="1402" height="1122" alt="image" src="https://github.com/user-attachments/assets/a788d1fb-9e45-44f8-b759-8556c81a6356" />
-
+ <img width="1600" height="1200" alt="Lcd_dispaly" src="https://github.com/user-attachments/assets/01cf9a09-7f46-4933-87fa-61fbfc043d1d" />
 
 ## Overview
 
@@ -33,6 +32,8 @@ SmartCart is an embedded systems project that automates the retail billing proce
 * MAX232
 * USB-to-UART Converter
 * Push Buttons/Switches
+  
+  <img width="1402" height="1122" alt="image" src="https://github.com/user-attachments/assets/a788d1fb-9e45-44f8-b759-8556c81a6356" />
 
 ## Software Used
 
@@ -49,9 +50,6 @@ The SmartCart RFID Smart Billing System automates the shopping and billing proce
 1. **Customer Authentication**
    - The customer scans the RFID customer card.
    - The system verifies the customer details and displays the available account balance.
-
-     <img width="1600" height="1200" alt="Lcd_dispaly" src="https://github.com/user-attachments/assets/01cf9a09-7f46-4933-87fa-61fbfc043d1d" />
-
 
 2. **Product Scanning**
    - Each product is scanned using its RFID tag.
