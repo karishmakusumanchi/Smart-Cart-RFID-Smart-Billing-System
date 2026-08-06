@@ -115,3 +115,8 @@ The SmartCart RFID Smart Billing System automates the shopping and billing proce
 ## Project Outcome
 
 This project demonstrates the implementation of an RFID-enabled smart billing system that automates product identification, billing, and inventory management. It showcases practical knowledge of embedded systems, ARM7 microcontrollers, Linux programming, serial communication, and hardware-software integration to build a real-world retail automation solution.
+
+## Developed By
+
+Karishma
+B.Tech – Electronics and Communication Engineering | Embedded C | Linux | LPC2148 ARM7 | UART | RFID | MAX232
